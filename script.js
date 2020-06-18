@@ -38,7 +38,7 @@ function generatePassword() {
   var lowerCaseChars = "abcdefghijklmnopqrstuvwxyz";
   var upperCaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var numericChars = "0123456789";
-  var specialChars =  "!#$%&()*+,-./:;<=>?@[]^_`{|}~"; //ommitting double quotes, single quotes and backslash as options
+  var specialChars =  "!#$%&()*+,-./:;<=>?@[]^_`{|}~"+"'"+'"'+"/";
   var charOptions = ""
 
   if (criteria.lowercase) {
